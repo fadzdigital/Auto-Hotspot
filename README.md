@@ -1,7 +1,7 @@
 # Skrip Pengaturan Hotspot Android
 
 ## Ikhtisar
-Skrip ini mengotomatiskan konfigurasi hotspot Wi-Fi atau tethering USB pada perangkat Android, terutama untuk Android 11l0. Skrip memeriksa keberadaan antarmuka jaringan (`wlan0` untuk Wi-Fi atau `rndis0` untuk tethering USB), mengaktifkan tethering jika perlu, dan menetapkan alamat IP default (`192.168.43.1/24`) ke antarmuka yang ditentukan (`wlan0`). Aktivitas dicatat ke `/data/adb/hotspot.log` untuk debugging, dan skrip dapat dijalankan secara otomatis menggunakan `crontab`.
+Skrip ini mengotomatiskan konfigurasi hotspot Wi-Fi atau tethering USB pada perangkat Android, terutama untuk Android 10. Skrip memeriksa keberadaan antarmuka jaringan (`wlan0` untuk Wi-Fi atau `rndis0` untuk tethering USB), mengaktifkan tethering jika perlu, dan menetapkan alamat IP default (`192.168.43.1/24`) ke antarmuka yang ditentukan (`wlan0`). Aktivitas dicatat ke `/data/adb/hotspot.log` untuk debugging, dan skrip dapat dijalankan secara otomatis menggunakan `crontab`.
 
 ## Fitur
 - Memeriksa keberadaan antarmuka jaringan `wlan0` dan `rndis0`.
