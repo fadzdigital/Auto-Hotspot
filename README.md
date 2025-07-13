@@ -1,4 +1,3 @@
-```markdown
 # Skrip Pengaturan Hotspot Android
 
 ## Ikhtisar
@@ -96,4 +95,4 @@ Skrip ini mengotomatiskan konfigurasi hotspot Wi-Fi atau tethering USB pada pera
   - Periksa dukungan tethering dan validitas perintah untuk versi Android.
 - **IP Tidak Ditetapkan**:
   - Konfirmasi `wlan0` sebagai antarmuka yang benar.
-  - Periksa log untuk pesan error.```
+  - Periksa log untuk pesan error.
